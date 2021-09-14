@@ -63,7 +63,8 @@ module.exports = {
         ],
         extensions: ['.web.tsx', '.web.ts', '.web.jsx', '.web.js', '.ts', '.tsx', '.js', '.jsx', '.json'],
         alias: {
-            '@src': path.resolve('./src')
+            '@src': path.resolve('./src'),
+            'bn.js': path.resolve(process.cwd(), 'node_modules', 'bn.js'),
         }
     },
     resolveLoader:{
