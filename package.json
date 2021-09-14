@@ -82,6 +82,11 @@
   },
   "author": "",
   "license": "ISC",
+  "files": [
+    "config",
+    "lib",
+    "bin"
+  ],
   "bin": {
     "cty-webpack-cli": "bin/yt.js"
   },
