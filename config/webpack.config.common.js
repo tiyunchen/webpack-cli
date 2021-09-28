@@ -88,6 +88,7 @@ module.exports = {
                             "camel2DashComponentName": false
                         }, "@yt/watermelon"],
                         "@babel/plugin-transform-runtime",
+                        "@babel/plugin-transform-modules-commonjs"
                     ],
                     presets: ['@babel/preset-env','@babel/preset-react', "@babel/preset-typescript"],
                 }
